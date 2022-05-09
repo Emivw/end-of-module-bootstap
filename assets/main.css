@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar-brand {
+    background-image: url("./images/image001.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .navbar-nav .nav-item:hover {
+    background-color: rgba(180, 190, 203, 0.4);
+  }
+  .overlay{
+  background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item .card img{
+max-height:200px;
+max-width: 200px;
+}
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+/* masterhead */
+#landing {
+    background: url("./images/wp9292504.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  nav{
+      position: sticky;
+  }
+  .circle{
+      border-radius: 50% !important;
+      max-width: 200px !important;
+      max-height:200px !important;
+      justify-self: center !important;
+  }
+/* skills */
