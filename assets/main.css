@@ -50,6 +50,48 @@ body {
       border-radius: 50% !important;
       max-width: 200px !important;
       max-height:200px !important;
-      justify-self: center !important;
+
   }
+ .container .card .img{
+    display: flex !important;
+      position: absolute;
+      justify-content: center !important;
+
+
+  }
+  #test{
+    background: url("./images/wp9314803.jpg");
+    background-size: cover;
+    height: 70vh;
+
+  }
+  .card img{
+    width: 100px;
+    height: 100px;
+  }
+
 /* skills */
+#skill-bars {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .progress-bar,
+  .btn {
+    background-image: linear-gradient(
+      to right,
+      #bfefff,
+      #8dd2f3,
+      #5fb4e8,
+      #3594dc,
+      #1874cd
+    );
+  }
+  
+  .fa-user-tag,
+  .blue,
+  .list-inline-item i:hover {
+    color: #5fb4e8;
+    transition: all 0.2s ease-in-out;
+  }
+/* testomoneies */
