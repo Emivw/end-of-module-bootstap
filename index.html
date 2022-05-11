@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <!-- fort awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- devicon icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
     <!-- animations -->
@@ -20,377 +22,307 @@
 </head>
 <body>
     <!-- header start -->
-   <header>
-    <section id="nav">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand flex-grow-1" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-md-auto justify-content-center gap-2">
-              <li class="nav-item rounded">
-                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-2"></i>Home</a>
-              </li>
-              <li class="nav-item dropdown rounded">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person-fill me-2"></i>Profile</a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">About me</a></li>
-                        <li><a class="dropdown-item" href="#">Testomonials</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Skills</a></li>
-                    </ul>
-                    </li>
-                <li class="nav-item rounded">
-                    <a class="nav-link" href="#"><i class="bi bi-telephone-fill me-2"></i>Contact</a>
-                </li>
-                <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-instagram"></i></a>
-                  </li>
-                  <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-github"></i></a>
-                  </li>
-                  <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-whatsapp"></i></a>
-                  </li>
-                  <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-envelope"></i></a>
-                  </li>
-                  <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-linkedin"></i></a>
-                  </li>
-                  <li class="nav-item rounded">
-                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
-                  </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
+<header>
     <section id="landing">
-<div class="p-5 d-flex flex-column h-100 justify-content-center align-items-center">
-    <div class="container text-white">
-        <h1 class="display-3">Welcome to my personal website</h1>
-        <p class="lead">My name is Emile van Wyk</p>
-        <hr class="my-2">
-        <p>I'm an Aspiring web Developer</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">About me</a>
-        </p>
-    </div>
-</div>
+      <div class="p-5 d-flex flex-column h-100 justify-content-center align-items-center">
+          <div class="container text-white">
+              <h1 class="display-3">Welcome to my personal website</h1>
+              <p class="lead">My name is Emile van Wyk</p>
+              <hr class="my-2">
+              <nav class="navbar navbar-expand-lg navbar-dark">
+
+
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li ><a href="#" class="nav-link twitter"><i class="bi bi-twitter"></i></a></li>
+                    <li ><a href="#" class="nav-link facebook"><i class="bi bi-facebook"></i></a></li>
+                    <li ><a href="#" class="nav-link instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li ><a href="#" class="nav-link linkedin"><i class="bi bi-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </nav>
+              <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#about" role="button">About me</a>
+              </p>
+          </div>
+      </div>
     </section>
 
-    </header>
+</header>
     <!-- header end -->
-    <main>
-        <!-- about start -->
-<section id="about">
-    <div class="container p-5 bg-dark d-flex flex-column justify-content-center align-content-center">
+<main>
+    <section id="about">
+      <div class="container">
         <div class="row">
-            <div class="col-md-3 ">
-                <div class="card ">
-                    <img class="card-img-top img-fluid circle" src="./assets/images/Emile.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">An Aspiring web developer</h4>
-                        <p class="card-text">contact me</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link"><i class="bi bi-github"></i></a>
-                        <a href="#" class="card-link"><i class="bi bi-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-9">
-              <div class="card text-center">
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                        <p>About me</p>
-                        <footer class="blockquote-footer"><cite title="Source title">Hi there, my name is Emile I'm an aspiring website designer from Cape Town, with a focus in UI/UX design and Web/App Development. I love to get new experiences and always learn from my surroundings. I'm still a student trying to build a name for myself. I looking forward to any opportunities and challenges.</cite></footer>
-                        </blockquote>
-                    </div>
+          <div class="col-md-12">
+            <h4>ABOUT</h4>
+            <hr class="my-2">
+            <h2>LEARN MORE ABOUT ME</h2>
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid rounded-image" src="./assets/images/Emile.JPG" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Aspiring Web Developer</h3>
+            <hr class="my-2">
+            <p>Hi there, my name is Emile I'm an aspiring website designer from Cape Town, with a focus in UI/UX design and Web/App Development. I love to get new experiences and always learn from my surroundings. I'm still a student trying to build a name for myself. I look forward to any opportunities and challenges.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-calendar-date-fill"></i><strong> Birthday:</strong> 5 October 2000</li>
+                  <li><i class="bi bi-envelope-fill"></i><strong> Email:</strong> emiya.vanwyk@gmail.com</li>
+                  <li><i class="bi bi-phone-fill"></i><strong> Phone:</strong> +27 81 355 7960</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-archive-fill"></i><strong> Age:</strong> 21</li>
+                  <li><i class="bi bi-envelope-fill"></i><strong> Language:</strong> English/Afrikaans</li>
+                  <li><i class="bi bi-map-fill"></i><strong> City:</strong> Kenwyn, CPT, RSA</li>
+                </ul>
               </div>
             </div>
-                <!-- carosael -->
-            <div class="col-md-9">
-                    <div class="d-flex align-items-start">
-                      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-                      </div>
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                          <div class="col-md-12 text-center bg-danger text-white">
-                            <!-- <section class="resume-section p-3 p-lg-5" id="skills"> -->
-                                <h2 class="mb-4 blue">Technologies and Skills</h2>
-                                <div class="my-auto">
-                                  <ul class="list-inline list-icons mb-4">
-                                    <li class="list-inline-item">
-                                      <i class="devicon-html5-plain" title="HTML5"></i>
-                                    </li>
-                                    <li class="list-inline-item">
-                                      <i class="devicon-css3-plain" title="CSS3"></i>
-                                    </li>
-                                    <li class="list-inline-item">
-                                      <i class="devicon-javascript-plain" title="JavaScript"></i>
-                                    </li>
-                                    <li class="list-inline-item">
-                                      <i class="devicon-jquery-plain" title="jQuery"></i>
-                                    </li>
-                            
-                                    <li class="list-inline-item">
-                                      <i class="devicon-bootstrap-plain" title="Bootstrap 4"></i>
-                                    </li>
-                            
-                                    <li class="list-inline-item">
-                                      <i class="devicon-angularjs-plain" title="AngularJS"></i>
-                                    </li>
-                                    <li class="list-inline-item">
-                                      <i class="devicon-visualstudio-plain" title="VS Code"></i>
-                                    </li>
-                            
-                                    <li class="list-inline-item">
-                                      <i class="devicon-bitbucket-plain" title="Bitbucket"></i>
-                                    </li>
-                                    <li class="list-inline-item">
-                                      <i class="devicon-github-plain" title="Github"></i>
-                                    </li>
-                                  </ul>
-                            
-                                  <div id="skill-bars" class="d-flex flex-column">
-                                      <div>
-                                        <p class="text-left">HTML5 - 88%</p>
-                            
-                                        <div class="progress mb-2" style="height: 1.5rem;">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
-                                        </div>
-                                      </div>
-                                      <div>
-                                        <p class="text-left">CSS3 - 52%</p>
-                            
-                                        <div class="progress mb-2" style="height: 1.5rem;">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 52%"></div>
-                                        </div>
-                                      </div>
-                                      <div>
-                                        <p class="text-left">JavaScript - 20%</p>
-                            
-                                        <div class="progress mb-2" style="height: 1.5rem;">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
-                                        </div>
-                                      </div>
-                                      <div>
-                                        <p class="text-left">Bootstrap - 69%</p>
-                            
-                                        <div class="progress mb-5" style="height: 1.5rem;">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 69%"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div> 
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                          <div class="col-md-12 text-center bg-danger text-white">
-                            <!-- <section class="resume-section p-3 p-lg-5" id="skills"> -->
-                            <h2 class="mb-4 blue">Soft Skills</h2>
-                              <div class="my-auto">
-                                <div id="skill-bars" class="d-flex flex-column">
-                                    <div class="exp">
-                                      <p class="text-left">HTML5 - 88%</p>
-                                      <div class="progress mb-2" style="height: 1.5rem;">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="exp">
-                                      <p class="text-left">CSS3 - 52%</p>
-                                      <div class="progress mb-2" style="height: 1.5rem;">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 52%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="exp">
-                                      <p class="text-left">JavaScript - 20%</p>
-                                      <div class="progress mb-2" style="height: 1.5rem;">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="exp">
-                                      <p class="text-left">Bootstrap - 69%</p>
-                                      <div class="progress mb-5" style="height: 1.5rem;">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 69%"></div>
-                                      </div>
-                                    </div>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-    <!-- row end -->
-    </div>
-  <!-- container end -->
-  </div>
-
-                <!-- Nav tabs -->
-    <!-- <div class="container my-5">
-      <div class="row d-flex justify-content-center">
-          <div class="col-12">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active bg-secondary"></li>
-                    <li data-target="#carousel" data-slide-to="1" class="bg-secondary"></li>
-                    <li data-target="#carousel" data-slide-to="2" class="bg-secondary"></li>
-                  </ol>
-                < class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-xl-3 mb-4">
-                            <div class="card mr-3">
-                                <img src="./assets/images/Whatsapp.jpg" class="rounded-circle card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Marshalino Jankowski</h5>
-                                  <p class="card-text">Emile van Wyk is one of the best future developers I have ever seen, he displays genuine uncapped and raw talent equipped with his unrelenting desire to be nothing but the best in everything he does. He has a friendly and helpful spirit, always assisting his colleagues when they are stuck. It has been a pleasure to call him both friend and colleague and he will be a great asset to any company that he is employed at.</p>
-                                  <a href="#" class="btn btn-primary">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-3 mb-4">
-                            <div class="card text-center  mr-3">
-                              <img class="rounded-circle card-img-top" src="https://www.lifechoices.co.za/sites/default/files/2022-01/godwin-2022.jpg" alt="" width="75">
-                                <div class="card-body">
-                                  <h5 class="card-title">Godwin Dzvapatsva</h5>
-                                  <p class="card-text">Emile has a very gentle personality. Since joining Lifechoices Academy, Emile has shown great enthusiasm for coding. He is hard-working and gets along well with his classmates. I am confident that he will continue to be productive and willing to learn new concepts. I recommend him.</p>
-                                  <a href="#" class="btn btn-primary">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-3 mb-4">
-                            <div class="card mr-3">
-                                <img src="./assets/images/joshe.JPG" class="rounded-circle card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Joshe Theys</h5>
-                                  <p class="card-text ">Emile is a talented web developer who clearly has a passion for the trade. He is a helpful individual who is always willing to assist his teammates. He has great potential to become an irreplaceable member of your company as he is always working towards improving his skills. His  bright  personality will be sure to fit in with any team and his communication skills will make working with him a breeze.</p>
-                                  <a href="#" class="btn btn-primary">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-3 mb-4">
-                            <div class="card justify-content-center mr-3">
-                                <img src="./assets/images/amanda.jpg" class="rounded-circle card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Amanda Gudlwa</h5>
-                                  <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>I have known Emile for little over a month now. He is a pleasure to be around. I can say that he would be an asset to any team, of any size. Emile is a person who knows who he is and where he is going, yet he is humble and is accepting of everyone. Even outside the class room he is able to hold any conversation. Emile is secure enough to accept himself, and others. He lights up a room when he enters. Any team would be lucky to have him, he is as much of a teacher, as he is a leaner. He gracefully moves from not knowing something, to knowing it</p>
-                                  <a href="#" class="btn btn-primary">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div> -->
-  <section class="pt-5 pb-5" id="test">
-			<div class="container-fluid">
-				<h2 class="text-center">What other say for us</h2>
-				<hr class="midline">
-				<h5 class="text-center mb-5">Our team created best opportunities for your business.</h5>
-        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <div class="card">
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>I have known Emile for little over a month now. He is a pleasure to be around. I can say that he would be an asset to any team, of any size. Emile is a person who knows who he is and where he is going, yet he is humble and is accepting of everyone. Even outside the class room he is able to hold any conversation. Emile is secure enough to accept himself, and others. He lights up a room when he enters. Any team would be lucky to have him, he is as much of a teacher, as he is a leaner. He gracefully moves from not knowing something, to knowing it</p>
-                        <footer class="blockquote-footer">Amanda Gudlwa<cite title="Source title"> - Colleague</cite></footer>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                          <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>Emile van Wyk is one of the best future developers I have ever seen, he displays genuine uncapped and raw talent equipped with his unrelenting desire to be nothing but the best in everything he does. He has a friendly and helpful spirit, always assisting his colleagues when they are stuck. It has been a pleasure to call him both friend and colleague and he will be a great asset to any company that he is employed at.</p>
-                          <footer class="blockquote-footer">Marshalino Jankowski<cite title="Source title"> - Colleague</cite></footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                          <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>Emile has a very gentle personality. Since joining Lifechoices Academy, Emile has shown great enthusiasm for coding. He is hard-working and gets along well with his classmates. I am confident that he will continue to be productive and willing to learn new concepts. I recommend him.</p>
-                          <footer class="blockquote-footer">Godwin Dzvapatsva<cite title="Source title"> - Colleague</cite></footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-            </div>
+          </div>
         </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
+        <div class="row">
+          <div class="col-md-12">
+            <h4>SKILLS</h4>
+            <hr class="my-2">
+          </div>
+          <div class="col-md-6">
+            <h3>
+              <a href="" class="typewrite" data-period="2000" data-type='[ "Soft Skills" ]'>
+                <span class="wrap"></span>
+              </a>
+            </h3>
+            <div class="col-md-12">
+                <div class="skillbar" data-percent="55%">
+                    <div class="skillbar-title">Communication</div>
+                    <div class="skill-bar-percent">55%</div>
+                    <div class="skillbar-bar" style="width: 55%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="80%">
+                    <div class="skillbar-title">Problem Solving</div>
+                    <div class="skill-bar-percent">80%</div>
+                    <div class="skillbar-bar" style="width: 80%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="40%">
+                    <div class="skillbar-title">Leadership</div>
+                    <div class="skill-bar-percent">40%</div>
+                    <div class="skillbar-bar" style="width: 40%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="70%">
+                    <div class="skillbar-title">Creativity</div>
+                    <div class="skill-bar-percent">70%</div>
+                    <div class="skillbar-bar" style="width: 70%;"></div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <h3>
+              <a href="" class="typewrite" data-period="2000" data-type='[ "Tech Skills" ]'>
+                <span class="wrap"></span>
+              </a>
+            </h3>
+            <div class="col-md-12">
+                <div class="skillbar" data-percent="55%">
+                    <div class="skillbar-title">HTML5</div>
+                    <div class="skill-bar-percent">55%</div>
+                    <div class="skillbar-bar" style="width: 55%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="80%">
+                    <div class="skillbar-title">CSS3</div>
+                    <div class="skill-bar-percent">80%</div>
+                    <div class="skillbar-bar" style="width: 80%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="40%">
+                    <div class="skillbar-title">Bootstrap</div>
+                    <div class="skill-bar-percent">40%</div>
+                    <div class="skillbar-bar" style="width: 40%;"></div>
+                </div>
+
+                <div class="skillbar" data-percent="70%">
+                    <div class="skillbar-title">SQL</div>
+                    <div class="skill-bar-percent">70%</div>
+                    <div class="skillbar-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h4>INTERESTS</h4>
+            <hr class="my-2">
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h4>TESTIMONIALS</h4>
+            <hr class="my-2">
+          </div>
+          <div class="col-md-12">
+              <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="circle "></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="circle"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="circle active"></button>
+                  </div>
+                  <div class="carousel-inner  text-center bg-darker bg-gradient text-dark pb-5 mb-3" data-aos="zoom-in-right">
+                      <div class="carousel-item active">
+                        <div class="card">
+                          <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                              <img class="img-fluid rounded-image" src="./assets/images/amanda.jpg" alt="">
+                              <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>I have known Emile for little over a month now. He is a pleasure to be around. I can say that he would be an asset to any team, of any size. Emile is a person who knows who he is and where he is going, yet he is humble and is accepting of everyone. Even outside the class room he is able to hold any conversation. Emile is secure enough to accept himself, and others. He lights up a room when he enters. Any team would be lucky to have him, he is as much of a teacher, as he is a leaner. He gracefully moves from not knowing something, to knowing it</p>
+                              <footer class="blockquote-footer">Amanda Gudlwa<cite title="Source title"> - Colleague</cite></footer>
+                            </blockquote>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="card">
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                <img class="img-fluid rounded-image" src="./assets/images/Whatsapp.jpg" alt="">
+                                <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>Emile van Wyk is one of the best future developers I have ever seen, he displays genuine uncapped and raw talent equipped with his unrelenting desire to be nothing but the best in everything he does. He has a friendly and helpful spirit, always assisting his colleagues when they are stuck. It has been a pleasure to call him both friend and colleague and he will be a great asset to any company that he is employed at.</p>
+                                <footer class="blockquote-footer">Marshalino Jankowski<cite title="Source title"> - Colleague</cite></footer>
+                              </blockquote>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="carousel-item">
+                          <div class="card">
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                <img class="img-fluid rounded-image" src="https://www.lifechoices.co.za/sites/default/files/2022-01/godwin-2022.jpg" alt="">
+                                <p class="font-italic lead"> <i class="bi bi-quote mr-3 text-success"></i>Emile has a very gentle personality. Since joining Lifechoices Academy, Emile has shown great enthusiasm for coding. He is hard-working and gets along well with his classmates. I am confident that he will continue to be productive and willing to learn new concepts. I recommend him.</p>
+                                <footer class="blockquote-footer">Godwin Dzvapatsva<cite title="Source title"> - Head of Curriculum</cite></footer>
+                              </blockquote>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <!-- container end -->
       </div>
-	</section>
-
-<section id="Skills">
-    <div class="container">
+    </section>
+    <section id="resume">
+      <div class="container">
         <div class="row">
-            <div class="col">
-                
-
-            </div>
+          <div class="col-md-12">
+            <h4>RESUME</h4>
+            <hr class="my-2">
+          </div>
         </div>
-    </div>
-</section>
-<section id="about">
-    <div class="container">
         <div class="row">
-            <div class="col">
-
-            </div>
-        </div>
-    </div>
-</section>
-<section id="about">
-    <div class="container">
+          <div class="col-md-6 how-img" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+              <img src="./assets/images/download copy.jpg" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+              <h4>SQL Development Intern</h4>
+                          <h4 class="subheading">QuickEasy Software</h4>
+                          <h6>2020 - 2021</h6>
+          <p class="text-muted">Tasks included Importing/capturing data, maintained demo databases front end and backend running upgrade scripts and testing information fidelity, as well as bug testing following S.O.P., Designing of templates using template tools following S.O.P, Formulated reports in FirebirdSQL to Specifications of clients and company. Attended training sessions with development seniors on procedures and operations of company. Produced videos for company page through Camtasia.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6" data-aos="fade-up-right">
+              <h4>Assistant</h4>
+              
+                          <h4 class="subheading">Savvy Business</h4>
+                          <h6>2019 - 2020</h6>
+                          <p class="text-muted">Tasks included answering incoming calls and emails from clients in a helpdesk environment, providing remote support, log client queries and escalate where required. Attend meetings with clients onsite, creation of training documents and videos, designing and maintaining client google sites to house documentation for internal use.
+                            Provided onsite support for client to ensure smooth transition, providing training and documentation of S.O.P, as well as first line support and escalated queries where required.</p>
+          </div>
+          <div class="col-md-6 how-img" data-aos="fade-down-left">
+              <img src="https://quickeasysoftware.com/wp-content/uploads/bb-plugin/cache/Copy-of-1-2-e1599824522610-150x150-circle-150x150-circle.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 how-img" data-aos="zoom-in-up">
+               <img src="https://academy.lifechoices.co.za/pluginfile.php/1/theme_moove/logo/1616663360/LIFE-CHOICES-ACADEMY-LOGO-ON-BLUE-removebg-preview.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6" data-aos="flip-left">
+              <h4>Student</h4>
+              
+                          <h4 class="subheading">Life Choices Academy</h4>
+                          <h6>2022 - Present</h6>
+                          <p class="text-muted">full-stacks-developement course: HTML5, CSS3, Bootstrap, MySQL, VUE.JS, NODE.JS</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6" data-aos="zoom-in-right">
+              <h4>General Education Development Certificate</h4>
+              
+                          <h4 class="subheading">GED Testing Service</h4>
+                          <h6>2018</h6>
+                          <p class="text-muted">Matric Equivalent Certificate</p>
+          </div>
+          <div class="col-md-6 how-img" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+              <img src="https://ged.com/wp-content/uploads/2018/03/ged-logo.svg" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+  </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
         <div class="row">
-            <div class="col">
+          <div class="col">
 
-            </div>
+          </div>
         </div>
-    </div>
-</section>
-<section id="about">
-    <div class="container">
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
         <div class="row">
-            <div class="col">
+          <div class="col">
 
-            </div>
+          </div>
         </div>
-    </div>
-</section>
-    </main>
+      </div>
+    </section>
+</main>
     <!-- scripts -->
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="./assets/main.js"></script>
     <!-- animations -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

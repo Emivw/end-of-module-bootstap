@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+h6{
+  background-color: #ffa500;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+}
+
 body {
     font-family: Montserrat, sans-serif;
   }
@@ -46,7 +61,7 @@ body {
   nav{
       position: sticky;
   }
-  .circle{
+  .rounded-image{
       border-radius: 50% !important;
       max-width: 200px !important;
       max-height:200px !important;
@@ -59,11 +74,11 @@ body {
 
 
   }
-  #test{
-    background: url("./images/wp9314803.jpg");
-    background-size: cover;
-    height: 70vh;
-
+  .circle{
+    width: 15px;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
   }
   .card img{
     width: 100px;
@@ -94,4 +109,69 @@ body {
     color: #5fb4e8;
     transition: all 0.2s ease-in-out;
   }
-/* testomoneies */
+/* skills */
+.skillbar {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+  background: #eee;
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.skillbar-bar {
+  height: 3px;
+  width: 0px;
+  background: #323232;
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  color: #323232;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.skill-bar-percent {
+  float: right;
+  display: inline-block;
+  color: #323232;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* resume */
+#resume{
+  margin-top:-15%;
+  padding: 10%;
+}
+#resume h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+#resume .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+#resume .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+}
