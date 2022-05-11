@@ -29,13 +29,7 @@
               <h1 class="display-3">Welcome to my personal website</h1>
               <p class="lead">My name is Emile van Wyk</p>
               <hr class="my-2">
-              <nav class="navbar navbar-expand-lg navbar-dark">
-
-
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+              <nav class="navbar navbar-expand-xl navbar-dark">
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -68,8 +62,49 @@
     </section>
 
 </header>
+
+
     <!-- header end -->
 <main>
+  <div class="container sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li ><a href="#" class="nav-link twitter"><i class="bi bi-twitter"></i></a></li>
+          <li ><a href="#" class="nav-link facebook"><i class="bi bi-facebook"></i></a></li>
+          <li ><a href="#" class="nav-link instagram"><i class="bi bi-instagram"></i></a></li>
+          <li ><a href="#" class="nav-link linkedin"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+    <section id="about-nav">
+      
+      
+    </section>
+    </section>
     <section id="about">
       <div class="container">
         <div class="row">
@@ -190,9 +225,9 @@
           <div class="col-md-12">
               <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                   <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="circle "></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="circle active"></button>
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="circle"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="circle active"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="circle"></button>
                   </div>
                   <div class="carousel-inner  text-center bg-darker bg-gradient text-dark pb-5 mb-3" data-aos="zoom-in-right">
                       <div class="carousel-item active">
@@ -265,7 +300,8 @@
                           <p class="text-muted">Tasks included answering incoming calls and emails from clients in a helpdesk environment, providing remote support, log client queries and escalate where required. Attend meetings with clients onsite, creation of training documents and videos, designing and maintaining client google sites to house documentation for internal use.
                             Provided onsite support for client to ensure smooth transition, providing training and documentation of S.O.P, as well as first line support and escalated queries where required.</p>
           </div>
-          <div class="col-md-6 how-img" data-aos="fade-down-left">
+          <div class="col-md-6 how-img" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
               <img src="https://quickeasysoftware.com/wp-content/uploads/bb-plugin/cache/Copy-of-1-2-e1599824522610-150x150-circle-150x150-circle.png" class="rounded-circle img-fluid" alt=""/>
           </div>
       </div>
