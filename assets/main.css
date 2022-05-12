@@ -16,7 +16,7 @@ h6{
   padding: 10px;
   text-align: center;
 }
-header{ overflow: hidden; /* Hide scrollbars */ 
+header{ overflow: hidden; /* Hide scrollbars */
 }
 
 body {
@@ -30,9 +30,8 @@ body {
     width: 48px;
     height: 48px;
   }
-  
   .navbar-nav .nav-item:hover {
-    background-color: rgba(180, 190, 203, 0.4);
+    background-color: rgba(153, 4, 141, 0.4);
   }
   .overlay{
   background: rgba(255, 255, 255, 0.19);
@@ -51,9 +50,10 @@ max-width: 200px;
   bottom: -30px;
 }
 body {
-    background: #e8cbc0;
-    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-    background: linear-gradient(to right, #e8cbc0, #636fa4);
+  color: whitesmoke;
+    background: #00686b;
+    background: -webkit-linear-gradient(to right, #801010, #0c2cb9);
+    background: linear-gradient(to right, #580808, #081861);
     min-height: 100vh;
 }
 /* masterhead */
@@ -198,4 +198,38 @@ body {
   flex-grow: 1;
   object-fit: cover;
   max-height: 400px;
+}
+
+.staff {
+  position: relative;
+}
+
+.staff-details {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.staff:hover .staff-details {
+  opacity: 1;
+}
+/* contact */
+
+#contact .subheading{
+  color: #3931af;
+  font-size: 20px;
 }
