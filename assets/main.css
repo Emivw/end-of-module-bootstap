@@ -22,6 +22,10 @@ header{ overflow: hidden; /* Hide scrollbars */
 body {
     font-family: Montserrat, sans-serif;
   }
+/* menu hover */
+
+/* end menu */
+
   .navbar-brand {
     background-image: url("./images/image001.jpg");
     background-position: center;
@@ -203,7 +207,12 @@ body {
 .staff {
   position: relative;
 }
-
+.staff img{
+  min-width: 200px;
+  flex-grow: 1;
+  object-fit: cover;
+height: 300px;
+}
 .staff-details {
   background: linear-gradient(
     to top,
