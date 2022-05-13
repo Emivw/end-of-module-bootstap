@@ -159,6 +159,9 @@ body {
     background: linear-gradient(to right, #580808, #081861);
     min-height: 100vh;
 }
+li{
+  list-style: none;
+}
 /* masterhead */
 #landing {
     background: url("./images/wp9292504.jpg");
