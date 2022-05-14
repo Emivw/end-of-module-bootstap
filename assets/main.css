@@ -209,8 +209,20 @@ li{
     margin: 0 auto;
   }
   /* buttons */
-  #interests .btn{
+  #interests .col-xl-3 .btn{
+    width: 29.25rem;
+    color: rgb(190, 190, 190);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,10,13,0.9906337535014006) 35%, rgba(136,144,145,1) 100%);
+  }
+  #interests .col-md-4 .btn{
     width: 11.25rem;
+    color: rgb(190, 190, 190);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,10,13,0.9906337535014006) 35%, rgba(136,144,145,1) 100%);
+  }
+  #interests .col-sm-6 .btn{
+    width: 9.25rem;
     color: rgb(190, 190, 190);
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,10,13,0.9906337535014006) 35%, rgba(136,144,145,1) 100%);
